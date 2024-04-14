@@ -1,0 +1,47 @@
+#############################################
+############## WiTUnet config###############
+#################deep supervise##############
+#############################################
+model:
+  config:
+    img_size: 512
+    in_chans: 1
+    dd_in: 1
+    embed_dim: 32
+    depths:
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+      - 2
+    win_size: 8
+    mlp_ratio: 4
+    token_projection: linear
+    token_mlp: LiPe
+    modulator: True # True
+    shift_flag: False
+    deep_super: True   # 是否使用 deep supervise
+  path: model.our.WiTUnet
+  class_name: WiTUnet
+  weight_path:
+
+#==========================设置训练参数================================
+train:
+  epochs: 200 # 训练轮数
+  start-epochs: 0 # 继续从第几个epoch开始
+  batch_size: 1  # 一个批次中的样本数量
+  save_img_rate: 1 # 保存测试图片的步长
+  learning_rate: 0.00005  # deep supervise training
+#==========================设置数据集================================
+dataset:
+  train:
+    dataset_path: ./dataset/3mm_B30/train  # the path to load train data
+  test:
+    dataset_path: ./dataset/3mm_B30/valid # the path to load test data
+#==========================日志=======================================
+logs:
+  name: WiTUnet-Small-DS
