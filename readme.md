@@ -63,5 +63,5 @@ If you find the cmd call scripts inelegant, you can also configure pycharm
 - Set parameter `--gpu_ids=all` to set available GPUs, specify script path `/{your_path}/LDCT-Denoising/trian.py`.
 ![配置pycham](./img/pycham_config.png)
 
-更多分布式训练参数请参考 https://huggingface.co/docs/accelerate/v0.28.0/en/basic_tutorials/launch
+For more distributed training parameters see https://huggingface.co/docs/accelerate/v0.28.0/en/basic_tutorials/launch
 
