@@ -4,6 +4,9 @@
 Bin Wang, 
 <a href='https://dengfei-ailab.github.io'>Deng Fei</a>, 
 <a href='https://github.com/jiangpeifan'>Peifan Jiang</a>
+<a href='https://github.com/WAL-l'>Shuang Wang</a>
+<a href=''>Xiao Han</a>
+<a href=''>Hongjie Zheng</a>
 </b>
 
 <hr>
@@ -14,12 +17,19 @@ Bin Wang,
 ---
 - overall structure
 ![WiTUnet](./img/overall_structure.jpg)
+
 (a) Illustrates the U-shaped network architecture of WiTUnet, featuring encoder and decoder connected by nested dense blocks. (b) Describes the structure of the encoder, bottleneck and decoder, consisting of $N$ WT blocks, and for the decoder, an additional channel projection is depicted.  (c) Details the WT block, highlighting the layers and their functions, including Layer Normalization and Local Image Perception Enhancement (LiPe).
 - nested dense block
+
 ![nested dense block](./img/nested_dense_block.jpg)
+
+
 (a) Demonstrates the nested dense network structure of WiTUnet, highlighting the complex skip connectiion approach. In the figure, $X_{k,0}$ where $k\in [0,D)$ represents the encoder at different layers, $X_{k,v}$ where $k\in [0,D)$ and $v=D-k$ represents the decoder, and$ X_{D,0}$ is the bottleneck layer. The green and blue arrows show the specially designed jump paths. The redesigned path changes the connection between the codecs, and the encoder's feature map needs to be processed through multiple dense convolutional blocks before it can be passed to the decoder. (b) The computational process at each node is described to help understand the flow and processing of information throughout the network structure.
 - LiPe
+
 ![LiPe](./img/LiPe.jpg)
+
+
 The diagram visualizes the Local Image Perspective Enhancement (LiPe) module, showcasing the sequence of operations including convolutional layers and the transformation from image to token and back, facilitating the feature refinement process within the network architecture.
 
 ---
