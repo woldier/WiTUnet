@@ -3,10 +3,10 @@
 <b>
 Bin Wang, 
 <a href='https://dengfei-ailab.github.io'>Deng Fei</a>, 
-<a href='https://github.com/jiangpeifan'>Peifan Jiang</a>
-<a href='https://github.com/WAL-l'>Shuang Wang</a>
-<a href=''>Xiao Han</a>
-<a href=''>Hongjie Zheng</a>
+<a href='https://github.com/jiangpeifan'>Peifan Jiang</a>,
+<a href='https://github.com/WAL-l'>Shuang Wang</a>,
+<a href='https://github.com/IceKingX'>Xiao Han</a>,
+<a href='github.com/PloyAAA'>Hongjie Zheng</a>
 </b>
 
 <hr>
