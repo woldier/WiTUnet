@@ -6,11 +6,31 @@ Bin Wang,
 <a href='https://github.com/jiangpeifan'>Peifan Jiang</a>,
 <a href='https://github.com/WAL-l'>Shuang Wang</a>,
 <a href='https://github.com/IceKingX'>Xiao Han</a>,
-<a href='https://github.com/PloyAAA'>Hongjie Zheng</a>
+<a href='https://github.com/zzx2046236458'>Zhixuan Zhang</a>
 </b>
 
 <hr>
-<i>Low-dose computed tomography (LDCT) has emerged as the preferred technology for diagnostic medical imaging due to the potential health risks associated with X-ray radiation and conventional computed tomography (CT) techniques. While LDCT utilizes a lower radiation dose compared to standard CT, it results in increased image noise, which can impair the accuracy of diagnoses. To mitigate this issue, advanced deep learning-based LDCT denoising algorithms have been developed. These primarily utilize Convolutional Neural Networks (CNNs) or Transformer Networks and often employ the Unet architecture, which enhances image detail by integrating feature maps from the encoder and decoder via skip connections. However, existing methods focus excessively on the optimization of the encoder and decoder structures while overlooking potential enhancements to the Unet architecture itself. This oversight can be problematic due to significant differences in feature map characteristics between the encoder and decoder, where simple fusion strategies may hinder effective image reconstruction. In this paper, we introduce WiTUnet, a novel LDCT image denoising method that utilizes nested, dense skip pathway in place of traditional skip connections to improve feature integration. Additionally, to address the high computational demands of conventional Transformers on large images, WiTUnet incorporates a windowed Transformer structure that processes images in smaller, non-overlapping segments, significantly reducing computational load. Moreover, our approach includes a Local Image Perception Enhancement (LiPe) module within both the encoder and decoder to replace the standard multi-layer perceptron (MLP) in Transformers, thereby improving the capture and representation of local image features. Through extensive experimental comparisons, WiTUnet has demonstrated superior performance over existing methods in critical metrics such as Peak Signal-to-Noise Ratio (PSNR), Structural Similarity (SSIM), and Root Mean Square Error (RMSE), significantly enhancing noise removal and image quality.</i>
+<i>Low-dose computed tomography (LDCT) has emerged as the preferred technology for 
+diagnostic medical imaging due to the potential health risks associated with X-ray 
+radiation and conventional computed tomography (CT) techniques. While LDCT utilizes a lower radiation 
+dose compared to standard CT, it results in increased image noise, which can impair the accuracy of diagnoses. 
+To mitigate this issue, advanced deep learning-based LDCT denoising algorithms have been developed. 
+These primarily utilize Convolutional Neural Networks (CNNs) or Transformer Networks and often employ 
+the Unet architecture, which enhances image detail by integrating feature maps from the encoder and decoder 
+via skip connections. However, existing methods focus excessively on the optimization of the encoder and 
+decoder structures while overlooking potential enhancements to the Unet architecture itself. This oversight 
+can be problematic due to significant differences in feature map characteristics between the encoder and 
+decoder, where simple fusion strategies may hinder effective image reconstruction. In this paper, we introduce 
+WiTUnet, a novel LDCT image denoising method that utilizes nested, dense skip pathway in place of traditional 
+skip connections to improve feature integration. Additionally, to address the high computational demands of 
+conventional Transformers on large images, WiTUnet incorporates a windowed Transformer structure that 
+processes images in smaller, non-overlapping segments, significantly reducing computational load. Moreover, 
+our approach includes a Local Image Perception Enhancement (LiPe) module within both the encoder and decoder 
+to replace the standard multi-layer perceptron (MLP) in Transformers, thereby improving the capture and 
+representation of local image features. Through extensive experimental comparisons, WiTUnet has demonstrated 
+superior performance over existing methods in critical metrics such as Peak Signal-to-Noise Ratio (PSNR), 
+Structural Similarity (SSIM), and Root Mean Square Error (RMSE), significantly enhancing noise removal and 
+image quality.</i>
 
 
 
